@@ -15,7 +15,7 @@ void loop() {
   //Serial.println(counter);
   // read the value from the sensor:
   sensorValue = analogRead(sensorPin);
-   // Serial.println(sensorValue);
+   Serial.println(sensorValue);
   if (sensorValue > 400){
     currentStateTape = true;
   }else{
