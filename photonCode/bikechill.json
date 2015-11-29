@@ -1,0 +1,12 @@
+{
+    "eventName": "postRotations",
+    "url": "http://bikechill.herokuapp.com/bikeSession",
+    "requestType": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "form": {
+      "rotations": "{{SPARK_EVENT_VALUE}}"
+    },
+    "mydevices": true
+}
